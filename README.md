@@ -1,5 +1,10 @@
+
 <<<<<<< HEAD
-# mymall
+# mymall  
+
+coderwhy的开源购物车项目
+
+
 
 > A Vue.js project
 
