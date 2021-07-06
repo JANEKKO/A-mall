@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "mymall",
   "version": "1.0.0",
   "description": "A Vue.js project",
@@ -57,10 +58,51 @@
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
+=======
+  "name": "mall",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "git": "^0.1.5",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+>>>>>>> 175d4304f500e7ffe94bc5c8775705735a0c714c
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
+<<<<<<< HEAD
     "not ie <= 8"
+=======
+    "not dead"
+>>>>>>> 175d4304f500e7ffe94bc5c8775705735a0c714c
   ]
 }

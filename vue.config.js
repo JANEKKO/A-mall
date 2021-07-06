@@ -2,7 +2,10 @@ module.exports={
     configureWebpack:{
         resolve:{
             alias:{
+<<<<<<< HEAD
                 '@':'src',
+=======
+>>>>>>> 175d4304f500e7ffe94bc5c8775705735a0c714c
                 'assets':'@/assets',
                 'common':'@/common',
                 'components':'@/components',
